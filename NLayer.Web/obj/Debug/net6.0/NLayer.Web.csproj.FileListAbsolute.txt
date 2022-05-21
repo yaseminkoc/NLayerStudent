@@ -152,3 +152,5 @@ C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\obj\Debug\net6.0\refint\NLaye
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\obj\Debug\net6.0\NLayer.Web.pdb
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\obj\Debug\net6.0\NLayer.Web.genruntimeconfig.cache
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\obj\Debug\net6.0\ref\NLayer.Web.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

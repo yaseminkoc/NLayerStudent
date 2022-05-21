@@ -16,7 +16,7 @@ namespace NLayer.API.Controllers
             _mapper = mapper;
             _service = service;
         }
-
+        
         [HttpGet]
         public async Task<IActionResult> All()
         {

@@ -18,7 +18,9 @@ namespace NLayer.Repository.Configurations
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.Name).IsRequired().HasMaxLength(50);
             builder.Property(x => x.Surname).IsRequired().HasMaxLength(50);
+            builder.HasOne(x => x.School).WithMany(x => x.Students).HasForeignKey(x => x.SchoolId);
             builder.ToTable("Students");
+
 
         }
     }

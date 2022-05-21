@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace NLayer.Core.DTOs
 {
-    public class StudentDto:BaseDto
+    public class StudentWithSchoolDto : SchoolDto
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public int SchoolId { get; set; }
+        private StudentDto student { get; set; }
     }
 }

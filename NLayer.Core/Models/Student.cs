@@ -11,7 +11,9 @@ namespace NLayer.Core.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
-        public ICollection<Project> Projects { get; set; }
+        public int SchoolId { get; set; }
+        public School School { get; set; }
+        public StudentFeature StudentFeature { get; set; }
 
     }
 }

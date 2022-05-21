@@ -17,8 +17,8 @@ namespace NLayer.Repository
         }
 
         public DbSet<Student> Students { get; set; }
-        public DbSet<Project> Projects { get; set; }
-        public DbSet<ProjectFeature> ProjectFeatures { get; set; }
+        public DbSet<School> Projects { get; set; }
+        public DbSet<StudentFeature> ProjectFeatures { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());

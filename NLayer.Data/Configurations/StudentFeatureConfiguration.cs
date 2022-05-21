@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace NLayer.Repository.Configurations
 {
-    internal class ProjectFeatureConfiguration : IEntityTypeConfiguration<ProjectFeature>
+    internal class StudentFeatureConfiguration : IEntityTypeConfiguration<StudentFeature>
     {
-        public void Configure(EntityTypeBuilder<ProjectFeature> builder)
+        public void Configure(EntityTypeBuilder<StudentFeature> builder)
         {
             builder.HasKey(x => x.Id);
-            builder.HasOne(x => x.Project).WithOne(x => x.ProjectFeature).HasForeignKey<ProjectFeature>(x => x.ProjectId);
-            builder.ToTable("ProjectFeatures");
+            builder.HasOne(x => x.Student).WithOne(x => x.StudentFeature).HasForeignKey<StudentFeature>(x => x.StudentId);
+            builder.ToTable("StudentFeatures");
         }
     }
 }
