@@ -154,3 +154,9 @@ C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\obj\Debug\net6.0\NLayer.Web.g
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\obj\Debug\net6.0\ref\NLayer.Web.dll
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\obj\Debug\net6.0\NLayer.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\Autofac.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.Web\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll

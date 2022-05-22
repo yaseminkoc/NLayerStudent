@@ -10,6 +10,6 @@ namespace NLayer.Core.Services
 {
     public interface IStudentService:IService<Student> 
     {
-        Task<CustomResponseDto<List<StudentWithSchoolDto>>> GetStudentsWithSchool();
+        Task<List<StudentWithSchoolDto>> GetStudentsWithSchool();
     }
 }

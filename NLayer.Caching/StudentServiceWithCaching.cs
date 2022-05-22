@@ -76,11 +76,11 @@ namespace NLayer.Caching
             //await kullanmadığım için Task ile döndüm
         }
 
-        public Task<CustomResponseDto<List<StudentWithSchoolDto>>> GetStudentsWithSchool()
+        public Task<List<StudentWithSchoolDto>> GetStudentsWithSchool()
         {
             var students = _memoryCache.Get<IEnumerable<Student>>(CacheStudentKey);
             var studentsWithSchoolDto = _mapper.Map<List<StudentWithSchoolDto>>(students);
-            return Task.FromResult(CustomResponseDto<List<StudentWithSchoolDto>>.Success(200, studentsWithSchoolDto));
+            return Task.FromResult(studentsWithSchoolDto);
         }
 
         public async Task RemoveAsync(Student entity)

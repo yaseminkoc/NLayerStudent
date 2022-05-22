@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ebIT314G9qZALCZ2ij6lHCqadJ/X1U0T8J0WYDROREjpn/JHkKFYomDuyUfA9RAajJ04FZEgge33y/DcNBjHmA==",
+  "dgSpecHash": "1EZ732GZPsou/Vy2XibBdS7Oq/IAlwrcCCmhgIxvSMsgPbhsV8RWUbU4VzQbiYV9iC/XuOw95acvumdXAfDd9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Web\\NLayer.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yasemin\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\yasemin\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",

@@ -13,21 +13,21 @@ using System.Threading.Tasks;
 namespace NLayer.Service.Services
 {
     
-    public class StudentServiceWithNoCaching : Service<Student>, IStudentService
+    public class StudentService : Service<Student>, IStudentService
     {
         private readonly IStudentRepository _studentRepository;
         private readonly IMapper _mapper;
-        public StudentServiceWithNoCaching(IGenericRepository<Student> repository, IUnitOfWork unitOfWork = null, IStudentRepository studentRepository = null, IMapper mapper = null) : base(repository, unitOfWork)
+        public StudentService(IGenericRepository<Student> repository, IUnitOfWork unitOfWork = null, IStudentRepository studentRepository = null, IMapper mapper = null) : base(repository, unitOfWork)
         {
             _studentRepository = studentRepository;
             _mapper = mapper;
         }
 
-        public async Task<CustomResponseDto<List<StudentWithSchoolDto>>> GetStudentsWithSchool()
+        public async Task<List<StudentWithSchoolDto>> GetStudentsWithSchool()
         {
             var student = await _studentRepository.GetStudentsWithSchool();
             var studentsDto = _mapper.Map<List<StudentWithSchoolDto>>(student);
-            return CustomResponseDto<List<StudentWithSchoolDto>>.Success(200,studentsDto);
+            return studentsDto;
         }
     }
 }
