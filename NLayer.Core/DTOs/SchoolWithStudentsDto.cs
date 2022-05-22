@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace NLayer.Core.DTOs
 {
-    public class StudentWithSchoolDto : StudentDto
+    public class SchoolWithStudentsDto:SchoolDto
     {
-        public SchoolDto School { get; set; }
+        public List<StudentDto> Students { get; set; }
     }
 }

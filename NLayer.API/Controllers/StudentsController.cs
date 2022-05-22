@@ -7,17 +7,28 @@ using NLayer.Core.Services;
 
 namespace NLayer.API.Controllers
 {
-    public class StudentController : CustomBaseController
+    public class StudentsController : CustomBaseController
     {
         private readonly IMapper _mapper;
-        private readonly IService<Student> _service;
-        public StudentController(IMapper mapper, IService<Student> service)
+    
+        private readonly IStudentService _service;
+        public StudentsController(IMapper mapper, IService<Student> service, IStudentService studentService = null)
         {
             _mapper = mapper;
-            _service = service;
+            _service = studentService;
         }
-        
-        [HttpGet]
+
+        [HttpGet("[action]")] //GET api/products/GetStudentsWithSchool
+        public async Task<IActionResult> GetStudentsWithSchool()
+        {
+            return CreateActionResult(await _service.GetStudentsWithSchool());
+        }
+
+
+
+
+
+        [HttpGet] 
         public async Task<IActionResult> All()
         {
             var students = await _service.GetAllAsync();
