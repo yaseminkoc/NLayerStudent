@@ -162,3 +162,6 @@ C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.API\obj\Debug\net6.0\NLayer.API.g
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.API\obj\Debug\net6.0\ref\NLayer.API.dll
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.API\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.API\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\yasemin\Desktop\NLayerTemplate\NLayer.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll

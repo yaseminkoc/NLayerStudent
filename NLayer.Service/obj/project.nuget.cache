@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KgFHvZWg6+vIz2o8v23/0g9eQRvB3142FwqE/1Rma6MVxAGrG6d1mm/HQ/mzORE3jxDPZoiDCIoj/KWCmhsCzQ==",
+  "dgSpecHash": "djBJsckM0bC/kLg8qedGzZaCg/DQoUs+UdaZCVKX2f1TYyn6D9So1GMOk5owShTL3mgs+W7rDwKz8fLxm7iuoA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Service\\NLayer.Service.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\yasemin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
+    "C:\\Users\\yasemin\\.nuget\\packages\\fluentvalidation\\11.0.1\\fluentvalidation.11.0.1.nupkg.sha512",
+    "C:\\Users\\yasemin\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.1\\fluentvalidation.aspnetcore.11.0.1.nupkg.sha512",
+    "C:\\Users\\yasemin\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.1\\fluentvalidation.dependencyinjectionextensions.11.0.1.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\yasemin\\.nuget\\packages\\microsoft.data.sqlclient\\4.1.0\\microsoft.data.sqlclient.4.1.0.nupkg.sha512",
