@@ -14,7 +14,7 @@ namespace NLayer.API.Controllers
         private readonly IMapper _mapper;
     
         private readonly IStudentService _service;
-        public StudentsController(IMapper mapper, IService<Student> service, IStudentService studentService = null)
+        public StudentsController(IMapper mapper, IStudentService studentService = null)
         {
             _mapper = mapper;
             _service = studentService;
@@ -37,6 +37,7 @@ namespace NLayer.API.Controllers
             var studentsDtos = _mapper.Map<List<StudentDto>>(students.ToList());
             return CreateActionResult(CustomResponseDto<List<StudentDto>>.Success(200, studentsDtos));
         }
+        [ServiceFilter(typeof(NotFoundFilter<Student>))]
 
         [HttpGet("{id}")] //GET api/products/5  -- kullanıcıdan bir id bekliyoruz
         public async Task<IActionResult> GeyById(int id)

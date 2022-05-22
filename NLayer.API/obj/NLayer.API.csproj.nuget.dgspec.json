@@ -34,8 +34,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Service\\NLayer.Service.csproj": {
-                "projectPath": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Service\\NLayer.Service.csproj"
+              "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Caching\\NLayer.Caching.csproj": {
+                "projectPath": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Caching\\NLayer.Caching.csproj"
               }
             }
           }
@@ -50,6 +50,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -75,6 +79,70 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Caching\\NLayer.Caching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Caching\\NLayer.Caching.csproj",
+        "projectName": "NLayer.Caching",
+        "projectPath": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Caching\\NLayer.Caching.csproj",
+        "packagesPath": "C:\\Users\\yasemin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yasemin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Service\\NLayer.Service.csproj": {
+                "projectPath": "C:\\Users\\yasemin\\Desktop\\NLayerTemplate\\NLayer.Service\\NLayer.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
